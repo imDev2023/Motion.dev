@@ -6,12 +6,14 @@ import SpinningIcon from "@/components/SpinningIcon";
 import SkewRectangle from "@/components/SkewRectangle";
 import ScrollIndicator from "@/components/ScrollIndicator";
 import LoaderProject from "@/components/LoaderProject";
+import Carousel from "@/components/Carousel";
 
 const page = () => {
   return (
     <>
+    <Carousel/>
     {/* <ScrollIndicator/> */}
-    <LoaderProject/>
+    {/* <LoaderProject/> */}
     {/* <Box/> */}
     {/* <BouncingCircle/> */}
     {/* <ComplexAnimation/> */}
