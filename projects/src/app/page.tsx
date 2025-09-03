@@ -10,12 +10,14 @@ import Carousel from "@/components/Carousel";
 import DraggableCard from "@/components/DraggableCard";
 import Sidebar from "@/components/Sidebar";
 import ScrollAnimation from "@/components/ScrollAnimation";
+import ScrollCarousel from "@/components/ScrollCarousel";
 
 
 const page = () => {
   return (
     <>
-    <ScrollAnimation/>
+    <ScrollCarousel/>
+    {/* <ScrollAnimation/> */}
     {/* <div    className="flex justify-center items-center h-screen w-full 
     bg-gray-950">
       <Sidebar/>
