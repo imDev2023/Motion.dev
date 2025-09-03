@@ -1,9 +1,25 @@
-import React from 'react'
+import * as motion from "motion/react-client";
+import { CSSProperties, ReactNode } from "react";
 
-const DraggableCard = () => {
-  return (
-    <div>DraggableCard</div>
-  )
+interface DraggableCardProps {
+  children: ReactNode;
+  style?: CSSProperties;
 }
 
-export default DraggableCard
+const DraggableCard = ({ children, style }: DraggableCardProps) => {
+  return (
+    <motion.div
+      drag
+      dragConstraints={{ left: -200, right: 200, top: -200, bottom: 200 }}
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+      className="rounded-2xl shadow-lg p-5 m-2 w-52 h-72
+       flex items-center justify-center text-white text-xl"
+      style={style}
+    >
+      {children}
+    </motion.div>
+  );
+};
+
+export default DraggableCard;

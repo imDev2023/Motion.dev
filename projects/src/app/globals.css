@@ -1,12 +1,11 @@
 @import "tailwindcss";
 
-body {
+/* body {
   background-color: #171717;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 100svh; */
-}
+  
 
 button {
   background-color: ☐ rgba(0, 0, 0, 0.5);
@@ -23,3 +22,4 @@ button {
 button:hover {
   background-color: ☐ rgba(0, 0, 0, 0.7);
 }
+} */
