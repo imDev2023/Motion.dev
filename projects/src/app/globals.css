@@ -2,7 +2,7 @@
 
 body {
   background-color: #171717;
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
   
@@ -20,5 +20,5 @@ body {
 }
 button:hover {
   background-color: ☐ rgba(0, 0, 0, 0.7);
-}
+} */
 }
