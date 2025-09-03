@@ -5,11 +5,13 @@ import ComplexAnimation from "@/components/ComplexAnimation";
 import SpinningIcon from "@/components/SpinningIcon";
 import SkewRectangle from "@/components/SkewRectangle";
 import ScrollIndicator from "@/components/ScrollIndicator";
+import LoaderProject from "@/components/LoaderProject";
 
 const page = () => {
   return (
     <>
-    <ScrollIndicator/>
+    {/* <ScrollIndicator/> */}
+    <LoaderProject/>
     {/* <Box/> */}
     {/* <BouncingCircle/> */}
     {/* <ComplexAnimation/> */}
