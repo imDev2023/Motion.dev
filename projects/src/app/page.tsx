@@ -12,12 +12,14 @@ import Sidebar from "@/components/Sidebar";
 import ScrollAnimation from "@/components/ScrollAnimation";
 import ScrollCarousel from "@/components/ScrollCarousel";
 import StickyNavBar from "@/components/StickyNavBar";
+import ProgressSteps from "@/components/ProgressSteps";
 
 
 const page = () => {
   return (
     <>
-    <StickyNavBar/>
+    <ProgressSteps/>
+    {/* <StickyNavBar/> */}
     {/* <ScrollCarousel/> */}
     {/* <ScrollAnimation/> */}
     {/* <div    className="flex justify-center items-center h-screen w-full 
