@@ -8,11 +8,18 @@ import ScrollIndicator from "@/components/ScrollIndicator";
 import LoaderProject from "@/components/LoaderProject";
 import Carousel from "@/components/Carousel";
 import DraggableCard from "@/components/DraggableCard";
+import Sidebar from "@/components/Sidebar";
+
 
 const page = () => {
   return (
     <>
-      <div className="flex justify-center items-center h-[100vh] bg-[#f3f3f3]">
+    <div    className="flex justify-center items-center h-screen w-full 
+    bg-gray-950">
+      <Sidebar/>
+    </div>
+
+      {/* <div className="flex justify-center items-center h-[100vh] bg-[#f3f3f3]">
         <DraggableCard
           style={{
             background: "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -34,7 +41,8 @@ const page = () => {
         >
           Card 3
         </DraggableCard>
-      </div>
+      </div> */}
+    
       {/* <Carousel/> */}
       {/* <ScrollIndicator/> */}
       {/* <LoaderProject/> */}
