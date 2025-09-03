@@ -9,15 +9,17 @@ import LoaderProject from "@/components/LoaderProject";
 import Carousel from "@/components/Carousel";
 import DraggableCard from "@/components/DraggableCard";
 import Sidebar from "@/components/Sidebar";
+import ScrollAnimation from "@/components/ScrollAnimation";
 
 
 const page = () => {
   return (
     <>
-    <div    className="flex justify-center items-center h-screen w-full 
+    <ScrollAnimation/>
+    {/* <div    className="flex justify-center items-center h-screen w-full 
     bg-gray-950">
       <Sidebar/>
-    </div>
+    </div> */}
 
       {/* <div className="flex justify-center items-center h-[100vh] bg-[#f3f3f3]">
         <DraggableCard
